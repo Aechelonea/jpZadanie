@@ -1,0 +1,44 @@
+.statistics {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.statList {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item {
+  flex-basis: calc(100% / 4);
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: #cccccc;
+}
+
+.label {
+  display: block;
+  font-size: 16px;
+}
+
+.percentage {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.item.docx { background-color: #0e516e; }
+.item.pdf { background-color: #a4dded; }
+.item.mp3 { background-color: #db7c23; }
+.item.psd { background-color: #907ad6; }
